@@ -32,6 +32,84 @@
         color: #0065FC;
         border-bottom: 3px solid #0065FC;
     }
+    .search{
+        width: 100%;
+        margin: 0;
+        padding: 0 20px;
+    }
+    .search h1 {
+        font-size: 20px;
+    }
+    .search p {
+        font-size: 15px;
+    }
+    .search form {
+        width: 280px;
+    }
+    .search form button span {
+        display: none;
+    }
+    .search form button .fas.fa-search {
+        display: block;
+    }
+    .search .search-bar 
+    {
+        display: flex;
+        margin: 20px auto;
+    }
+    .search .search-bar .fa-map-marker-alt 
+    {
+        padding: 16.5px 10px;
+        background-color: #f2f2f2;
+        border: 1px solid #f2f2f2;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+    .search .search-bar .city 
+    {
+        width: 234px;
+        height: 51px;
+        border: none;
+        border-top: 1px solid #f2f2f2;
+        border-bottom: 1px solid #f2f2f2;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 700;
+        list-style-type: none;
+        text-decoration: none;
+    }
+    .search .search-bar .btnsearch 
+    {
+        background: transparent;
+        border: none;
+        width: 130px;
+        height: 51px;
+        border: none;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-color: #0065fc;
+        color: white;
+        font-size: 1rem;
+        font-weight: 700;
+        text-align: center;
+        padding: 1%;
+    }
+    .search .search-bar .btnsearch span
+    {
+        display: none;
+    }
+    .search .search-bar .btnsearch .fa-search
+    {
+        display: block;
+    }
+    .search .search-bar .btnsearch:hover 
+    {
+        color: #0065fc;
+        background-color: #deebff;
+        border: 1px solid #0065fc;
+        cursor: pointer;
+    }
+
 }
 @media(max-width: 425px) {
     nav a {

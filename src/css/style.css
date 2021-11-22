@@ -17,9 +17,10 @@ a {
 
 body {
     max-width: 1440px;
+    width: 100%;
     height: 100vh;
     margin: 0 auto;
-    background-color: brown;
+    /* background-color: brown; */
 }
 header {
     display: flex;
@@ -27,7 +28,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 40px 40px 30px;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
 }
 
 header a img {
@@ -44,4 +45,125 @@ nav a {
 nav a:hover {
     border-top: 4px solid #0065FC;
     color: #0065FC;
+}
+.search {
+    margin: 0 40px;
+    width: 100%;
+}
+.search h1 {
+    margin-bottom: 0;
+    font-size: 1.8em;
+    margin: 0.67em 0;
+    /* color: chartreuse; */
+}
+.search form {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-top: 30px;
+}
+.search form .fas.fa-map-marker-alt {
+    /* background: #F2F2F2; */
+    background: red;
+    border-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    padding: 19px 23px 19px 19px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.search form input {
+    position: relative;
+    right: 5px;
+    bottom: 2px;
+    border: 2px solid #F2F2F2;
+    border-right-color: rgb(242, 242, 242);
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-left-color: rgb(242, 242, 242);
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left: none;
+    border-right: none;
+    font-weight: bold;
+    padding: 18px;
+}
+.search form button {
+    position: relative;
+    right: 9px;
+    bottom: 2px;
+    border: none;
+    background: #0065FC;
+    color: white;
+    border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    padding: 21px 20px;
+}
+.fas.fa-search {
+    display: none;
+}
+
+.search
+{
+    margin-bottom: 35px;
+}
+.search .search-bar 
+{
+    display: flex;
+    margin-bottom: 3%;
+}
+.search .search-bar .fa-map-marker-alt 
+{
+    padding: 16.5px 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.search .search-bar .city 
+{
+    width: 234px;
+    height: 51px;
+    border: none;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    list-style-type: none;
+    text-decoration: none;
+}
+.search .search-bar .btnsearch 
+{
+    background: transparent;
+    border: none;
+    width: 130px;
+    height: 51px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #0065fc;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 1%;
+}
+
+.search .search-bar .btnsearch .fa-search
+{
+    display: none;
+}
+
+.search .search-bar .btnsearch:hover 
+{
+    color: #0065fc;
+    background-color: #deebff;
+    border: 1px solid #0065fc;
+    cursor: pointer;
 }
