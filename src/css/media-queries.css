@@ -36,6 +36,7 @@
         width: 100%;
         margin: 0;
         padding: 0 20px;
+        background-color: cornflowerblue;
     }
     .search h1 {
         font-size: 20px;
@@ -43,7 +44,7 @@
     .search p {
         font-size: 15px;
     }
-    .search form {
+    /* .search form {
         width: 280px;
     }
     .search form button span {
@@ -51,11 +52,13 @@
     }
     .search form button .fas.fa-search {
         display: block;
-    }
+    } */
+
     .search .search-bar 
     {
         display: flex;
         margin: 20px auto;
+        background-color: coral;
     }
     .search .search-bar .fa-map-marker-alt 
     {
@@ -67,7 +70,7 @@
     }
     .search .search-bar .city 
     {
-        width: 234px;
+        width: 260px;
         height: 51px;
         border: none;
         border-top: 1px solid #f2f2f2;
@@ -82,11 +85,10 @@
     {
         background: transparent;
         border: none;
-        width: 130px;
+        width: 55px;
         height: 51px;
         border: none;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
+        border-radius: 15px;
         background-color: #0065fc;
         color: white;
         font-size: 1rem;

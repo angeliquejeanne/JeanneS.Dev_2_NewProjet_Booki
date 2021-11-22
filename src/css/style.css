@@ -20,7 +20,7 @@ body {
     width: 100%;
     height: 100vh;
     margin: 0 auto;
-    /* background-color: brown; */
+    background-color: brown;
 }
 header {
     display: flex;
@@ -28,7 +28,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 40px 40px 30px;
-    /* background-color: chartreuse; */
+    background-color: chartreuse;
 }
 
 header a img {
@@ -56,15 +56,14 @@ nav a:hover {
     margin: 0.67em 0;
     /* color: chartreuse; */
 }
-.search form {
+/* .search form {
     display: flex;
     flex-direction: row;
     align-items: baseline;
     margin-top: 30px;
 }
 .search form .fas.fa-map-marker-alt {
-    /* background: #F2F2F2; */
-    background: red;
+    background: #F2F2F2;
     border-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -106,7 +105,7 @@ nav a:hover {
 }
 .fas.fa-search {
     display: none;
-}
+} */
 
 .search
 {
@@ -166,4 +165,62 @@ nav a:hover {
     background-color: #deebff;
     border: 1px solid #0065fc;
     cursor: pointer;
+}
+
+.search-filter {
+    width: 100%;
+    background-color: cyan;
+    display: flex;
+    flex-wrap: wrap;
+}
+.search-filter h3 
+{
+    margin: 0 30px;
+    padding: 15px 0px 15px 5px;
+}
+.search-filter .filter 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.search-filter .filter button 
+{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid #f2f2f2;
+    border-radius: 50px;
+    background: none;
+    padding: 0 20px 0 0;
+    margin-right: 25px;
+    outline: none;
+    cursor: pointer;
+}
+.search-filter .filter button .icon 
+{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin-left: -2px;
+    margin-right: 16px;
+    align-items: center;
+    justify-content: center;
+    background-color: #deebff;
+    border-radius: 50px;
+    color: #0065fc;
+}
+.search-filter .filter button:hover .icon 
+{
+    color: black;
+    background-color: #deebff;
+}
+.search-filter .filter button:hover 
+{
+    background-color: #0065fc;
+    color: white;
+    border-color: #0065fc;
 }
