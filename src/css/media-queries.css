@@ -1,0 +1,40 @@
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    header a img {
+        margin-left: 20%;
+        margin-bottom: 10%;
+    }
+
+    nav {
+        display: flex;
+    }
+  
+    nav a {
+        text-decoration: none;
+        border-bottom: 3px solid #F2F2F2;
+        font-size: 16px;
+    }
+  
+    nav a:nth-child(1) {
+        padding: 0 25px 10px;
+    }
+    
+    nav a:nth-child(2) {
+        padding: 0 55px 10px;
+    }
+
+    nav a:hover {
+        border-top: none;
+        color: #0065FC;
+        border-bottom: 3px solid #0065FC;
+    }
+}
+@media(max-width: 425px) {
+    nav a {
+      font-size: 14px;
+    }
+}
