@@ -19,16 +19,16 @@ body {
     max-width: 1440px;
     width: 100%;
     height: 100vh;
-    margin: 0 auto;
-    background-color: brown;
+    padding: 0 40px;
+    background-color: pink;
+    justify-content: center;
 }
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 40px 40px 30px;
-    background-color: chartreuse;
+    margin: 0px auto ;
 }
 
 header a img {
@@ -38,7 +38,7 @@ header a img {
 nav a {
     text-decoration: none;
     color: black;
-    padding: 65px 25px 0;
+    padding: 25px 25px 0 25px;
     font-size: 18px;
 }  
 
@@ -47,7 +47,7 @@ nav a:hover {
     color: #0065FC;
 }
 .search {
-    margin: 0 40px;
+    margin: 0 auto;
     width: 100%;
 }
 .search h1 {
@@ -56,56 +56,6 @@ nav a:hover {
     margin: 0.67em 0;
     /* color: chartreuse; */
 }
-/* .search form {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    margin-top: 30px;
-}
-.search form .fas.fa-map-marker-alt {
-    background: #F2F2F2;
-    border-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-bottom-right-radius: 0;
-    border-top-right-radius: 0;
-    padding: 19px 23px 19px 19px;
-    font-size: 20px;
-    font-weight: 900;
-}
-.search form input {
-    position: relative;
-    right: 5px;
-    bottom: 2px;
-    border: 2px solid #F2F2F2;
-    border-right-color: rgb(242, 242, 242);
-    border-right-style: solid;
-    border-right-width: 2px;
-    border-left-color: rgb(242, 242, 242);
-    border-left-style: solid;
-    border-left-width: 2px;
-    border-left: none;
-    border-right: none;
-    font-weight: bold;
-    padding: 18px;
-}
-.search form button {
-    position: relative;
-    right: 9px;
-    bottom: 2px;
-    border: none;
-    background: #0065FC;
-    color: white;
-    border-radius: 15px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-left-radius: 0px;
-    border-top-left-radius: 0px;
-    padding: 21px 20px;
-}
-.fas.fa-search {
-    display: none;
-} */
 
 .search
 {
@@ -114,9 +64,18 @@ nav a:hover {
 .search .search-bar 
 {
     display: flex;
-    margin-bottom: 3%;
+    margin-top: 20px;
 }
-.search .search-bar .fa-map-marker-alt 
+.search .search-bar form
+{
+    display: flex;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 20px;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+}
+.search .search-bar form .fa-map-marker-alt 
 {
     padding: 16.5px 10px;
     background-color: #f2f2f2;
@@ -124,7 +83,7 @@ nav a:hover {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
-.search .search-bar .city 
+.search .search-bar form .city 
 {
     width: 234px;
     height: 51px;
@@ -169,13 +128,12 @@ nav a:hover {
 
 .search-filter {
     width: 100%;
-    background-color: cyan;
     display: flex;
     flex-wrap: wrap;
 }
 .search-filter h3 
 {
-    margin: 0 30px;
+    margin: 0 30px 0 0;
     padding: 15px 0px 15px 5px;
 }
 .search-filter .filter 
@@ -223,4 +181,134 @@ nav a:hover {
     background-color: #0065fc;
     color: white;
     border-color: #0065fc;
+}
+
+/* Lodging */
+.cannebiere 
+{
+    background-image: url(../img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+}
+.hotelPort 
+{
+    background-image: url(../img/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+}
+.hotelMouettes 
+{
+    background-image: url(../img/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+}
+.hotelMer 
+{
+    background-image: url(../img/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+}
+.aubergePanier 
+{
+    background-image: url(../img/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+}
+.hotelAmina 
+{
+    background-image: url(../img/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+}
+
+.results 
+{
+    margin: 20px auto;
+}
+.results small 
+{
+    font-size: 0.75rem;
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+}
+.results span 
+{
+    text-align: center;
+}
+.fa-info 
+{
+    height: 22px;
+    width: 22px;
+    color: #0065fc;
+    background-color: #deebff;
+    border: 1px solid #f2f2f2;
+    border-radius: 50px;
+    align-items: center;
+    padding-top: 5px;
+    margin-right: 12px;
+}
+.containerresults 
+{
+    display: flex;
+    justify-content: space-between;
+    max-height: 630px;
+}
+.resultscontainer 
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 950px;
+    padding: 40px 0;
+    margin-right: 20px;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+}
+.resultscontainer h2 
+{
+    padding-left: 40px;
+}
+.containercard 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+.cardlink 
+{
+    margin: 15px 0 20px 0;
+}
+.card 
+{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.247);
+}
+.cardmain 
+{
+    padding: 5px 5px 10px 5px;
+}
+.card h4 
+{
+    padding-left: 12px;
+    margin: 2px 0 0 0;
+}
+.card p 
+{
+    font-size: 0.8rem;
+    padding-left: 12px;
+    margin: 6px 0;
+}
+.card .star 
+{
+    padding-left: 12px;
+    color: #0065fc;
+}
+.stargrey 
+{
+    color: #f2f2f2;
+}
+.imgmain 
+{
+    width: 236px;
+    height: 114px;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.more 
+{
+    font-size: 1.06rem;
+    font-weight: bold;
+    padding-left: 40px;
 }

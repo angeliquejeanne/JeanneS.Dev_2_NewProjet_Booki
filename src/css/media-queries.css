@@ -1,7 +1,11 @@
 @media screen and (max-width: 768px) {
+    body {
+        padding: 0 0;
+    }
     header {
         flex-direction: column;
         margin-top: 20px;
+        width: 100%;
     }
 
     header a img {
@@ -11,12 +15,15 @@
 
     nav {
         display: flex;
+        width: 100%;
     }
   
     nav a {
         text-decoration: none;
         border-bottom: 3px solid #F2F2F2;
         font-size: 16px;
+        width: 100%;
+        text-align: center;
     }
   
     nav a:nth-child(1) {
@@ -35,8 +42,7 @@
     .search{
         width: 100%;
         margin: 0;
-        padding: 0 20px;
-        background-color: cornflowerblue;
+        padding: 20px 20px;
     }
     .search h1 {
         font-size: 20px;
@@ -44,21 +50,11 @@
     .search p {
         font-size: 15px;
     }
-    /* .search form {
-        width: 280px;
-    }
-    .search form button span {
-        display: none;
-    }
-    .search form button .fas.fa-search {
-        display: block;
-    } */
 
     .search .search-bar 
     {
         display: flex;
         margin: 20px auto;
-        background-color: coral;
     }
     .search .search-bar .fa-map-marker-alt 
     {
@@ -110,6 +106,27 @@
         background-color: #deebff;
         border: 1px solid #0065fc;
         cursor: pointer;
+    }
+    .search-filter .filter button 
+    {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        font-size: 1rem;
+        font-weight: bold;
+        border: 2px solid #f2f2f2;
+        border-radius: 50px;
+        background: none;
+        padding: 0 20px 0 0;
+        margin-top: 10px;
+        margin-right: 25px;
+        outline: none;
+        cursor: pointer;
+    }
+    .search-filter{
+        width: 100%;
+        margin: 0;
+        padding: 20px 20px;
     }
 
 }

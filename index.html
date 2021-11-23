@@ -29,21 +29,24 @@ elle permet également au lecteur d'écran pour les personne non/malvoyante de s
         </nav>
     </header>
 
+    <!--section title & search -->
     <section class="search">
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre ville ou en pleine nature</p>
 
         <div class="search-bar">
-
+            <form action="">
             <i class="fas fa-map-marker-alt"></i>
             <input class="city" type="search" value="Marseille, France">
             <button class="btnsearch" type="submit">
                 <span>Rechercher</span>
                 <i class="fas fa-search"></i>
             </button>
-        
+            </form>
         </div>
     </section>
+
+    <!--section filters -->
     <section class="search-filter">
         <h3>Filtres</h3>
         <div class="filter">
@@ -69,7 +72,183 @@ elle permet également au lecteur d'écran pour les personne non/malvoyante de s
             </button>
         </div>
     </section>
-    
+
+    <!--section Lodging-->
+    <section id="lodging" class="results">
+
+        <small>
+            <span>
+                <i class="fas fa-info"></i>
+            </span>
+            Plus de 500 logements sont disponibles dans cette ville
+        </small>
+
+        <section class="containerresults">
+
+            <div class="resultscontainer">
+
+                <h2>Hébergements à Marseille</h2>
+
+                <div class="containercard">
+
+                    <a class="cardlink" href="#">
+                        <div class="card cardmain">
+                            <div class="imgmain cannebiere"></div>
+                            <h4>Auberge la Cannebière</h4>
+                            <p>Nuit à partir de <b>25€</b></p>
+                            <span class="star">
+                                <i class="fas fa-star fa-xs"></i>
+                                <i class="fas fa-star fa-xs"></i>
+                                <i class="fas fa-star fa-xs"></i>
+                                <i class="fas fa-star fa-xs"></i>
+                                <i class="fas fa-star fa-xs stargrey"></i>
+                            </span>
+                        </div>
+                    </a>
+
+                    <a class="cardlink" href="#">
+                        <div class="card cardmain">
+                            <div class="imgmain hotelPort"></div>
+                            <h4>Hôtel du port</h4>
+                            <p>Nuit à partir de <b>52€</b></p>
+                            <span class="star">
+                                <i class="fas fa-star fa-xs"></i>
+                                <i class="fas fa-star fa-xs"></i>
+                                <i class="fas fa-star fa-xs"></i>
+                                <i class="fas fa-star fa-xs"></i>
+                                <i class="fas fa-star fa-xs"></i>
+                            </span>
+                        </div>
+                    </a>
+
+                    <a class="cardlink" href="#">
+                        <div class="card cardmain">
+                            <div class="imgmain hotelMouettes"></div>
+                            <h4>Hôtel Les mouettes</h4>
+                            <p>Nuit à partir de <b>76€</b></p>
+                            <span class="star">
+                                <i class="fas fa-star fa-xs"></i>
+                                <i class="fas fa-star fa-xs"></i>
+                                <i class="fas fa-star fa-xs"></i>
+                                <i class="fas fa-star fa-xs"></i>
+                                <i class="fas fa-star fa-xs stargrey"></i>
+                            </span>
+                        </div>
+                    </a>
+
+                    <a class="cardlink" href="#">
+                        <div class="card cardmain">
+                            <div class="imgmain hotelMer"></div>
+                            <h4>Hôtel de la mer</h4>
+                            <p>Nuit à partir de <b>46€</b></p>
+                            <span class="star">
+                                <i class="fas fa-star fa-xs"></i>
+                                <i class="fas fa-star fa-xs"></i>
+                                <i class="fas fa-star fa-xs"></i>
+                                <i class="fas fa-star fa-xs stargrey"></i>
+                                <i class="fas fa-star fa-xs stargrey"></i>
+                            </span>
+                        </div>
+                    </a>
+
+                    <a class="cardlink" href="#">
+                        <div class="card cardmain">
+                            <div class="imgmain aubergePanier"></div>
+                            <h4>Auberge Le Panier</h4>
+                            <p>Nuit à partir de <b>23€</b></p>
+                            <span class="star">
+                                <i class="fas fa-star fa-xs"></i>
+                                <i class="fas fa-star fa-xs"></i>
+                                <i class="fas fa-star fa-xs"></i>
+                                <i class="fas fa-star fa-xs"></i>
+                                <i class="fas fa-star fa-xs stargrey"></i>
+                            </span>
+                        </div>
+                    </a>
+
+                    <a class="cardlink" href="#">
+                        <div class="card cardmain">
+                            <div class="imgmain hotelAmina"></div>
+                            <h4>Hôtel chez Amina</h4>
+                            <p>Nuit à partir de <b>96€</b></p>
+                            <span class="star">
+                                <i class="fas fa-star fa-xs"></i>
+                                <i class="fas fa-star fa-xs"></i>
+                                <i class="fas fa-star fa-xs"></i>
+                                <i class="fas fa-star fa-xs"></i>
+                                <i class="fas fa-star fa-xs"></i>
+                            </span>
+                        </div>
+                    </a>
+
+                </div>
+
+                <a href="#" class="more">Afficher plus ...</a>
+            </div>
+
+            <div class="popular">
+                <h2>Les plus populaires<i class="fas fa-chart-line"></i></h2>
+
+                <div class="containercard">
+
+                    <a class="cardlink" href="#">
+                        <div class="card cardpopular">
+                            <div class="imgpopular hotelSoleil"></div>
+                            <div class="card-title">
+                                <h4>Hôtel Le soleil du<br>matin</h4>
+                                <p>Nuit à partir de <b>128€</b></p>
+                                <span class="star">
+                                    <i class="fas fa-star fa-xs"></i>
+                                    <i class="fas fa-star fa-xs"></i>
+                                    <i class="fas fa-star fa-xs"></i>
+                                    <i class="fas fa-star fa-xs"></i>
+                                    <i class="fas fa-star fa-xs"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a class="cardlink" href="#">
+                        <div class="card cardpopular">
+                            <div class="imgpopular chambreCoeurEau"></div>
+                            <div class="card-title">
+                                <h4>Au coeur de l'eau<br>Chambres d'hôtes</h4>
+                                <p>Nuit à partir de <b>71€</b></p>
+                                <span class="star">
+                                    <i class="fas fa-star fa-xs"></i>
+                                    <i class="fas fa-star fa-xs"></i>
+                                    <i class="fas fa-star fa-xs"></i>
+                                    <i class="fas fa-star fa-xs"></i>
+                                    <i class="fas fa-star fa-xs stargrey"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a class="cardlink" href="#">
+                        <div class="card cardpopular">
+                            <div class="imgpopular hotelBleuBlanc"></div>
+                            <div class="card-title">
+                                <h4>Hôtel Tout bleu et<br>Blanc</h4>
+                                <p>Nuit à partir de <b>68€</b></p>
+                                <span class="star">
+                                    <i class="fas fa-star fa-xs"></i>
+                                    <i class="fas fa-star fa-xs"></i>
+                                    <i class="fas fa-star fa-xs"></i>
+                                    <i class="fas fa-star fa-xs"></i>
+                                    <i class="fas fa-star fa-xs stargrey"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </section>
 
 
   </body>
