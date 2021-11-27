@@ -20,35 +20,35 @@ body {
     height: 100vh;
     justify-content: center;
     margin: 0 auto;
+    /* display:block; */
 }
+
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin: 0px auto ;
-    padding: 0 40px;
+    padding: 0 60px;
 }
-
 header a img {
     width: 80%;
 }
-
 nav a {
     text-decoration: none;
     color: black;
     padding: 25px 25px 0 25px;
     font-size: 18px;
 }  
-
 nav a:hover {
     border-top: 4px solid #0065FC;
     color: #0065FC;
 }
+
 .search {
     margin: 0 auto;
     width: 100%;
-    padding: 0 40px;
+    padding: 0 60px;
 }
 .search h1 {
     margin-bottom: 0;
@@ -56,7 +56,6 @@ nav a:hover {
     margin: 0.67em 0;
     /* color: chartreuse; */
 }
-
 .search
 {
     margin-bottom: 35px;
@@ -112,12 +111,10 @@ nav a:hover {
     text-align: center;
     padding: 1%;
 }
-
 .search .search-bar .btnsearch .fa-search
 {
     display: none;
 }
-
 .search .search-bar .btnsearch:hover 
 {
     color: #0065fc;
@@ -130,7 +127,7 @@ nav a:hover {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 40px;
+    padding: 0 60px;
 }
 .search-filter h3 
 {
@@ -143,7 +140,6 @@ nav a:hover {
     flex-direction: row;
     flex-wrap: wrap;
 }
-
 .search-filter .filter button 
 {
     display: flex;
@@ -212,8 +208,10 @@ nav a:hover {
 
 .results 
 {
+    width: 100%;
     margin: 20px auto;
-    padding: 0 40px;
+    padding: 0 60px;
+    /* background-color: red; */
 }
 .results small 
 {
@@ -244,6 +242,9 @@ nav a:hover {
     flex-direction: row;
     /* justify-content: space-between; */
     /* max-height: 100%; */
+    /* background-color: cyan; */
+    width: 100%;
+    justify-content: space-between;
 }
 .resultscontainer 
 {
@@ -315,6 +316,7 @@ nav a:hover {
     font-weight: bold;
     padding-left: 40px;
 }
+
 /* Populare */
 .hotelSoleil 
 {
@@ -335,8 +337,8 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 30px;
-    padding: 40px 20px 0 20px;
+    margin-left: 100px;
+    padding: 40px 0px 0px 20px;
     background-color: #f2f2f2;
     border-radius: 15px;
 }
@@ -378,7 +380,8 @@ nav a:hover {
 {
     margin: 20px auto;
     padding: 10px;
-    padding: 0 40px;
+    padding: 0 60px;
+    /* background-color: pink; */
 }
 .contentActivities 
 {
@@ -462,23 +465,28 @@ a:hover
 {
     color: #0065fc;
 }
+
 /* Footer */
 footer 
 {
     margin: 0;
+    padding: 0px 60px;
     width: 100%;
     background-color: #f2f2f2;
 }
 .footercontent 
 {
-    max-width: 1380px;
-    margin: auto;
+    width: 100%;
+    margin: 0 auto;
+    /* background-color: green; */
     display: flex;
 }
 .footercontent div 
 {
-    margin-right: 230px;
+    /* margin-right: 230px; */
     padding-bottom: 30px;
+    padding-right: 230px;
+    /* background-color: yellow; */
 }
 footer h3 
 {
